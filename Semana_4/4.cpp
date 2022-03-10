@@ -1,4 +1,3 @@
-
 /*	4. Faça uma função que receba como parâmetro a hora de inicio e a hora de término de
 um jogo, ambas subdivididas em dois valores distintos: hora e minutos. A função deverá
 retornar a duração expressa em minutos, considerando que o tempo máximo de

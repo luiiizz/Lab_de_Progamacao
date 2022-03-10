@@ -1,16 +1,23 @@
-		/*	7. Faça uma função que receba como parâmetro um valor N(inteiro e maior ou igual a 1)
-e determine o valor da sequencia S, descrita a seguir e retorne o valor para o programa
-principal:
+#include<stdio.h>
+#include<locale>
+#include<math.h>
+#include<string>
+/*
+Dev: lorrayne Annyelly P. Cardoso
+Data: 06/03/2022
+Exercício: 7
 
-Dev: Luiz Henrique Bispo
+/*	7. Faça uma função que receba como parâmetro um valor N(inteiro e maior ou igual a 1)
+e determine o valor da sequencia S, descrita a seguir e retorne o valor para o programa
+principal.
+
 */
+
 
 #include<iostream>
 #include<locale.h>
 #include<math.h>
 #include<cstdlib>
-
-using namespace std;
 
 // Protótipo função
 float somaS(int n);
@@ -21,11 +28,11 @@ int main(){
 	int n = 0;
 	
 	while (n<1){
-		cout << "Digite um valor para N: ";
-		cin >> n;
+		printf("Digite um valor para N: ");
+		scanf("%d", &n);
 	}
 	
-	cout << "Valor da sequencia S: " << somaS(n);
+	printf("Valor da sequencia S: %d", somaS(n));
 	
 	return EXIT_SUCCESS;
 }
